@@ -42,6 +42,9 @@ body {
 .navbar-links li:hover {
   background-color: darkcyan;
 }
+.currently-on-page {
+  background-color: darkcyan;
+}
 @media (max-width: 640px) {
   .navbar-links {
     width: 100%;
