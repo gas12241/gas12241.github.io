@@ -41,6 +41,7 @@ body {
 }
 .navbar-links li:hover {
   background-color: darkcyan;
+  transition: 250ms;
 }
 .currently-on-page {
   background-color: darkcyan;
