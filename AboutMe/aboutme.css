@@ -1,3 +1,10 @@
+.about-me-container {
+  /* height: 200px; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .grid-container {
   height: 100vh;
   width: 100vw;
@@ -8,27 +15,67 @@
   text-align: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 .hobbies-text-styling {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
   padding: 5px;
 }
-.clip1-styling {
+.games-list {
+  position: relative;
+}
+.grid-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   grid-column: 3;
+  grid-row: 1;
+}
+.icon-wrapper {
+  width: 15px;
+  height: 10px;
+}
+svg-sizing {
+  height: 60px;
+}
+.clip1-styling {
+  grid-column: 2;
   grid-row: 2;
   padding: 5px;
 }
 .clip2-styling {
+  grid-column: 3;
+  grid-row: 2;
+  padding: 5px;
+}
+.clip3-styling {
   grid-column: 2;
   grid-row: 3;
   padding: 5px;
 }
-.clip3-styling {
+.clip4-styling {
   grid-column: 3;
   grid-row: 3;
   padding: 5px;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+ol {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-left: 100px;
+  width: 80%;
+}
+img:hover {
+  height: 95px;
 }
