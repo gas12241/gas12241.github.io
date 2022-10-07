@@ -69,3 +69,105 @@ body {
     color: darkcyan;
   }
 }
+.centered-container-10-padding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  padding: 10px;
+}
+.centered-container-15-padding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  padding: 10px;
+}
+.section-font {
+  font-size: 3rem;
+}
+.font-for-homepage {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.nintendo-resizing {
+  width: 25%;
+  height: auto;
+}
+.university-container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+}
+.education-styling {
+  text-align: center;
+  width: 40vh;
+}
+.northeastern-resizing {
+  width: 22vw;
+  height: auto;
+}
+.seattle-u-resizing {
+  width: 22vw;
+  height: auto;
+}
+.experience-width {
+  width: 50vw;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.coaching-pics-container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+}
+.coaching-pics-resizing {
+  width: 45%;
+  height: auto;
+}
+.start-block {
+  width: 100vw;
+  height: 50px;
+}
+.end-block {
+  width: 100vw;
+  height: 100px;
+}
+@media (max-width: 640px) {
+  .seattle-u-resizing {
+    display: none;
+  }
+  .northeastern-resizing {
+    display: none;
+  }
+  .nintendo-resizing {
+    width: 75%;
+    height: auto;
+  }
+  .experience-width {
+    width: 80vw;
+  }
+  .education-styling {
+    width: 80vw;
+  }
+  .coaching-pics-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coaching-pics-resizing {
+    width: 100%;
+    height: auto;
+    padding: 6px;
+  }
+}
