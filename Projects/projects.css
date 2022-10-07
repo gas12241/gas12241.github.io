@@ -27,7 +27,7 @@
   text-align: center;
 }
 .description {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 .video1-position {
   grid-column: 1;
@@ -44,6 +44,18 @@ iframe {
 }
 @media (max-width: 640px) {
   .description {
-    font-size: 0.75rem;
+    font-size: 1rem;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .video1-position {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .video2-position {
+    grid-column: 1;
+    grid-row: 2;
   }
 }
